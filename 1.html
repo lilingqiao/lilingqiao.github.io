@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+
+    .top{
+      width: 1000px;
+      margin: 10px auto;
+      position: relative;
+    }    
+    .clearfix::after{
+      content:"";
+      width: 0;
+      height: 0;
+      font-size:0;
+      display: block;
+      clear: both;
+    }
+    .top .logo{
+      width: 193px;
+      height: 40px;
+      background: url('http://dl.pinyin.sogou.com/index/header/logo.png');
+      float: left;
+    }
+    .top .sousuo{
+      width: 325px;
+      height: 32px;
+      background: url('http://dl.pinyin.sogou.com/index/header/search_box.png');
+      float: right;
+    }
+    .A1{
+      height:400px;
+      background: url('http://dl.pinyin.sogou.com/index/2.0/banner_8.0.2.jpg') center;
+    }
+    .A1 .btn{
+      width: 241px;
+      height: 60px;
+      display: inline-block;
+      background: url('http://dl.pinyin.sogou.com/index/2.0/btn_down_one_8.0.1.png') left top;
+      position: absolute;
+      right:140px;
+      top:300px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="top clearfix">
+    <div class="logo">
+      
+    </div>
+    <div class="sousuo">      
+    </div>
+  </div>
+  <div class="A1">
+    <div class="top">
+      <a class="btn" href="#">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
