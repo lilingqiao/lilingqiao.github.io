@@ -1,0 +1,138 @@
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+	width: 0;
+	height: 0;
+	font-size: 0;
+}
+.center{
+	width:1100px;
+	margin: 0 auto; 
+}
+a{
+    color:#666;
+    text-decoration:none;
+}
+a:hover {
+    outline: none;
+    text-decoration: underline
+}
+
+.header{
+	width: 1100px;
+	margin: 10px auto 0;
+}
+.header h1.logo{
+	width: 100px;
+	height: 45px;
+
+	float:left;
+
+}
+.header h1.logo img{
+	width: 100%;
+}
+.menu{
+	float:right;
+}
+.menu li{
+	float: left;
+}
+.menu li a{
+	color:#666;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 0;
+	margin: 0 15px;
+	border-bottom: 3px solid #fff;
+	/* c tab  tdn tab*/
+}
+.menu li a:hover{
+	color:#00a7ea;
+	border-bottom: 3px solid #00a7ea;
+}
+.banner{
+	height: 260px;
+	background: url(../images/brief_banner.jpg) center;
+}
+
+.content{
+    margin-top:20px;
+    color:#666;
+    position: relative;
+}
+.content h2{
+	width: 1100;
+	height: 24;
+	padding:15px;
+	font-size: 24px;
+	font-family: "Microsoft YaHei","å¾®è½¯é›…é»‘",tahoma,arial,simsun,"å®‹ä½“";
+}
+.content .nav{
+    color: #666;
+    padding: 0 4px;
+    font-size: 1.2px;
+    position: absolute;
+    top:24px;
+    right: 0px; 
+}
+.content .text{
+	font-size: 15px;
+    line-height: 30px;
+    color: #333;
+    padding-bottom: 20px;
+    text-indent: 30px;
+}
+.content .text p{
+	width: 1100;
+	height: 180;
+	padding:10px;
+	font-family: "Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";
+}
+.footer{
+	width:1100;
+    height: 264;
+    background: rgb(245, 245, 245);
+}
+.footer ul,
+.copyright p{
+	margin:0 240px;
+}
+.footer .bottomLink{
+	padding-top: 80px ;
+    font-size: 14px;
+    line-height: 32px;
+    position: relative;
+
+}
+.footer .copyright{
+	padding-bottom: 50px;
+	margin-left:0px ;
+}
+.copyright p{
+	color: #666;
+	font-size: 12px;
+    line-height: 24px;
+    margin-right: 6px;
+}
+.footer .contactUs .weixin{
+	display: inline-block;
+    width: 77px;
+    height: 25px;
+    background-image: url('http://www.xunlei.com/img/ico_footer.png');
+    position: absolute;
+    left:80%;
+    margin-top: -38px;
+}
+.footer .contactUs .weixin img{
+    display:none;
+    position: absolute;
+    top: 100%;
+    margin-left: -70px;
+    width: 180px;
+    height: 180px;
+}
+.footer .contactUs .weixin:hover img{
+	display: block;
+}
